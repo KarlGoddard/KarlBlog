@@ -6,3 +6,33 @@ p {
   font-family: "Georgia";
   color: yellow;
 }
+
+
+.container{
+  /* Step 1: Set display to grid */
+    display:grid;
+ /* Step 2: setup rows amd columns */
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(200px,auto);
+    grid-template-areas:
+    "hd hd hd"
+    "sd main main"
+    "ft ft ft";
+    border: 2px solid yellow;
+}
+.box{
+  border: 1px solid red;
+  background: #F8FA9D;
+  }
+.header{
+  grid-area:hd;
+}
+.footer{
+  grid-area:ft;
+}
+.sidebar{
+  grid-area:sd;
+}
+.content{
+  grid-area:main;
+}
