@@ -3,6 +3,22 @@ body {
   padding:0;
 }
 
+h1 {
+
+}
+
+h2 {
+  
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
 .container{
   /* Step 1: Set display to grid */
     display:grid;
@@ -15,21 +31,26 @@ body {
     "ft ft ft";
     border: 2px solid yellow;
 }
+
 .box{
   border: 1px solid red;
   background: #F8FA9D;
   font-family: "Georgia";
-  color: yellow;
+  color: red;
   }
+
 .header{
   grid-area:hd;
 }
+
 .footer{
   grid-area:ft;
 }
+
 .sidebar{
   grid-area:sd;
 }
+
 .content{
   grid-area:main;
 }
