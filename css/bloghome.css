@@ -60,11 +60,22 @@ p {
   background-color: white;
 }
 
-.list {
+.item {
   grid-area: sd;
-  border: 1px solid blue;
+  border: 1px solid black;
 }
 
 .content {
   grid-area: main;
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: minmax(200px,auto);
+  grid-template-areas:
+  "bl bl"
+  "bl bl";
+}
+
+.blog {
+  grid-area: bl;
+  border: 1px solid blue;
 }
