@@ -46,6 +46,13 @@ p {
 
 .sidebar {
   grid-area: sd;
+  background-color: white;
+}
+
+.list {
+  grid-area: sd;
+  background-color: white;
+  border: 1px solid red;
 }
 
 .content {
