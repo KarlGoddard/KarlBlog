@@ -46,12 +46,14 @@ p {
 
 .sidebar {
   grid-area: sd;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: white;
 }
 
 .list {
   grid-area: sd;
-  background-color: white;
   border: 1px solid red;
 }
 
