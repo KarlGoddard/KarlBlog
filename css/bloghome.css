@@ -61,7 +61,6 @@ p {
 }
 
 .item {
-  grid-area: sd;
   border: 1px solid black;
 }
 
