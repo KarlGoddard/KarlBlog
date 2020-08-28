@@ -1,12 +1,7 @@
 body {
-  background-color: blue;
+  margin:0;
+  padding:0;
 }
-
-p {
-  font-family: "Georgia";
-  color: yellow;
-}
-
 
 .container{
   /* Step 1: Set display to grid */
@@ -23,6 +18,8 @@ p {
 .box{
   border: 1px solid red;
   background: #F8FA9D;
+  font-family: "Georgia";
+  color: yellow;
   }
 .header{
   grid-area:hd;
