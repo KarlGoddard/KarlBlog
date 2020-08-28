@@ -3,5 +3,6 @@ body {
 }
 
 p {
-  font: yellow;
+  font-family: "Georgia"
+  color: yellow;
 }
