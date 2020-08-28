@@ -46,6 +46,10 @@ p {
 
 .footer {
   grid-area: ft;
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: blue;
 }
 
 .sidebar {
