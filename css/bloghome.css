@@ -1,6 +1,6 @@
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
 }
 
 h2 {
-  
+
 }
 
 h3 {
@@ -19,7 +19,7 @@ p {
 
 }
 
-.container{
+.container {
   /* Step 1: Set display to grid */
     display:grid;
  /* Step 2: setup rows amd columns */
@@ -32,25 +32,25 @@ p {
     border: 2px solid yellow;
 }
 
-.box{
+.box {
   border: 1px solid red;
   background: #F8FA9D;
   font-family: "Georgia";
   color: red;
   }
 
-.header{
-  grid-area:hd;
+.header {
+  grid-area: hd;
 }
 
-.footer{
-  grid-area:ft;
+.footer {
+  grid-area: ft;
 }
 
-.sidebar{
-  grid-area:sd;
+.sidebar {
+  grid-area: sd;
 }
 
-.content{
-  grid-area:main;
+.content {
+  grid-area: main;
 }
