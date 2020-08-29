@@ -2,7 +2,7 @@ body {
   /*margin: 0;
   padding: 0;*/
   font-family: "Verdana";
-  font-size: 12px;
+  font-size: 16px;
 }
 
 h1 {
@@ -42,7 +42,7 @@ p {
   grid-area: hd;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   background-color: green;
 }
 
@@ -85,9 +85,9 @@ p {
 
 .footer {
   grid-area: ft;
-  display flex;
+  display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-space-between;
   background-color: green;
 }
 
