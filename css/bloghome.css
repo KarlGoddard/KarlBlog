@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Verdana";
 }
 
 h1 {
@@ -19,6 +20,11 @@ p {
 
 }
 
+.box {
+  border: 1px solid blue;
+  background: #F8FA9D;
+  } /*use while building to visualize - delete on completion?*/
+
 .container {
     display:grid;
     grid-template-columns: 200px,repeat(2,1fr);
@@ -29,28 +35,17 @@ p {
     "ft ft ft";
 }
 
-.box {
-  border: 1px solid red;
-  background: #F8FA9D;
-  font-family: "Georgia";
-  color: blue;
-  }
+/*NAVIGATION*/
 
 .nav {
   grid-area: hd;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   background-color: green;
 }
 
-.footer {
-  grid-area: ft;
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: blue;
-}
+/*SIDEBAR*/
 
 .sidebar {
   grid-area: sd;
@@ -63,6 +58,8 @@ p {
 .item {
   border: 1px solid black;
 }
+
+/*CONTENT*/
 
 .content {
   grid-area: main;
@@ -77,4 +74,14 @@ p {
 .blog {
   grid-area: bl;
   border: 1px solid blue;
+}
+
+/*FOOTER*/
+
+.footer {
+  grid-area: ft;
+  display flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: green;
 }
