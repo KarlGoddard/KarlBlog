@@ -28,7 +28,7 @@ p {
 
 .container {
     display:grid;
-    grid-template-columns: 200px,repeat(2,1fr);
+    grid-template-columns: 20%,repeat(2,1fr);
     grid-auto-rows: minmax(200px,auto);
     grid-template-areas:
     "hd hd hd"
@@ -70,7 +70,8 @@ p {
   grid-area: main;
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  grid-auto-rows: minmax(50%,auto);
+  grid-template-rows: repeat(2,1fr);
+  grid-gap: 10px;
   grid-template-areas:
   "bl bl"
   "bl bl";
