@@ -33,7 +33,7 @@ p {
   border: 1px solid red;
   background: #F8FA9D;
   font-family: "Georgia";
-  color: red;
+  color: blue;
   }
 
 .nav {
@@ -48,7 +48,7 @@ p {
   grid-area: ft;
   display:flex;
   flex-direction: row;
-  align-content: center;
+  justify-content: center;
   background-color: blue;
 }
 
