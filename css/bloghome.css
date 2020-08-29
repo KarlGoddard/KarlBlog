@@ -87,7 +87,7 @@ p {
   grid-area: ft;
   display: flex;
   flex-direction: row;
-  justify-content: space-space-between;
+  justify-content: space-between;
   background-color: green;
 }
 
