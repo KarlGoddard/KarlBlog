@@ -70,7 +70,7 @@ p {
   grid-area: main;
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(2,1fr);
+  grid-template-rows: 100px 100px;
   grid-gap: 10px;
   grid-template-areas:
   "bl bl"
