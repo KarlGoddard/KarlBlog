@@ -2,22 +2,23 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Verdana";
+  font-size: 12px;
 }
 
 h1 {
-
+  font-size: 1em;
 }
 
 h2 {
-
+  font-size: 0.8em;
 }
 
 h3 {
-
+  font-size: 0.7em;
 }
 
 p {
-
+  font-size: 0.6em;
 }
 
 .box {
@@ -43,6 +44,10 @@ p {
   flex-direction: row;
   justify-content: center;
   background-color: green;
+}
+
+.navitem {
+  border: 1px solid black;
 }
 
 /*SIDEBAR*/
@@ -84,4 +89,9 @@ p {
   flex-direction: row;
   justify-content: center;
   background-color: green;
+}
+
+
+.foot {
+  border: 1px solid yellow;
 }
