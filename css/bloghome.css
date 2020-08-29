@@ -73,13 +73,28 @@ p {
   grid-template-rows: 100px 100px;
   grid-gap: 10px;
   grid-template-areas:
-  "bl bl"
-  "bl bl";
+  "bloga blogb"
+  "blogc blogd";
 }
 
 .blog {
-  grid-area: bl;
   border: 1px solid blue;
+}
+
+.blogA {
+  grid-area: bloga;
+}
+
+.blogB {
+  grid-area: blogb;
+}
+
+.blogC {
+  grid-area: blogc;
+}
+
+.blogD {
+  grid-area: blogd;
 }
 
 /*FOOTER*/
