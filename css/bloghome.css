@@ -21,6 +21,11 @@ p {
   font-size: 0.6em;
 }
 
+a {
+  text-decoration: none;
+  color:white;
+}
+
 .box {
   border: 1px solid blue;
   background: #F8FA9D;
@@ -28,8 +33,8 @@ p {
 
 .container {
     display:grid;
-    grid-template-columns: 20%,repeat(2,1fr);
-    grid-auto-rows: minmax(200px,auto);
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(100px,auto);
     grid-template-areas:
     "hd hd hd"
     "sd main main"
@@ -43,11 +48,17 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  height:100%;
   background-color: orange;
 }
 
 .navitem {
   border: 1px solid black;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /*SIDEBAR*/
@@ -56,12 +67,24 @@ p {
   grid-area: sd;
   display:flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 10px;
   background-color: white;
 }
 
 .item {
-  border: 1px solid black;
+  margin: 2px;
+  padding-left: 10px;
+  background-color: #ddd;
+}
+
+.active {
+  background-color: #444;
+  color: #eee;
+}
+
+a:hover {
+  color: green;
 }
 
 /*CONTENT*/
@@ -70,16 +93,18 @@ p {
   grid-area: main;
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 100px 100px;
+  grid-template-rows: minmax(100px, auto);
   grid-gap: 10px;
   grid-template-areas:
   "bloga blogb"
   "blogc blogd";
   padding: 10px;
+  background-color: inherit;
 }
 
 .blog {
-  border: 1px solid red;
+  border: 1px solid #ddd;
+
 }
 
 .blogA {
@@ -88,6 +113,9 @@ p {
 
 .blogB {
   grid-area: blogb;
+  display: flex;
+  flex-direction: column;
+  height:200px;
 }
 
 .blogC {
@@ -98,6 +126,16 @@ p {
   grid-area: blogd;
 }
 
+.picture img {
+  width: 100%;
+  height:auto;
+}
+
+.caption {
+  height: 50%;
+  color: black;
+}
+
 /*FOOTER*/
 
 .footer {
@@ -105,12 +143,15 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-content: stretch;
+  height:60px;
   background-color: green;
 }
-
 
 .foot {
   border: 1px solid yellow;
   width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
