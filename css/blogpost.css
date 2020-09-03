@@ -5,18 +5,6 @@ body {
   font-size: 20px;
 }
 
-@media screen and (max-width: 800px) {
-body {
-  font-size: 16px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-body {
-  font-size: 24px;
-  }
-}
-
 h1 {
   font-size: 1.2em;
   color: #eee;
@@ -38,10 +26,10 @@ a {
   text-decoration: none;
 }
 
-/*.box {
+.box {
   border: 1px solid blue;
   background: #F8FA9D;
-  } use while building to visualize - delete on completion?*/
+  }
 
 .container {
     display:grid;
@@ -51,24 +39,6 @@ a {
     "hd hd hd"
     "main main main"
     "ft ft ft";
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(100px,auto);
-    grid-template-areas:
-    "hd"
-    "hd"
-    "hd"
-    "sd"
-    "main"
-    "main"
-    "ft"
-    "ft"
-    "ft";
-  }
 }
 
 /*NAVIGATION*/
@@ -82,19 +52,6 @@ a {
   background-color: #444;
 }
 
-@media screen and (max-width: 768px) {
-  .nav {
-    grid-area: hd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height:100%;
-    background-color: #444;
-    margin:0;
-    padding:0;
-  }
-}
-
 .navitem {
   width:100%;
   display: flex;
@@ -103,59 +60,19 @@ a {
   align-items: center;
 }
 
-/*SIDEBAR*/
-
-.sidebar {
-  grid-area: sd;
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 10px;
-  background-color: white;
-}
-
-.item {
-  margin: 2px;
-  padding-left: 10px;
-  background-color: #ECECEC;
-}
-
-.active{
-  background-color: #444;
-  color: #eee;
-}
-
-
-
 /*CONTENT*/
 
 .content {
   grid-area: main;
-  display:grid;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows: minmax(100px, auto);
-  grid-gap: 10px;
-  grid-template-areas:
-  "bloga blogb"
-  "blogc blogd";
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 10px;
   background-color: inherit;
 }
 
-
-@media screen and (max-width: 768px) {
-  .content {
-    grid-area: main;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(50px, auto);
-    grid-gap: 10px;
-    grid-template-areas:
-    "bloga"
-    "blogb"
-    "blogc"
-    "blogd";
-  }
+.gap {
+  background-color: yellow;
 }
 
 .blog {
@@ -164,18 +81,6 @@ a {
 
 .blogA {
   grid-area: bloga;
-}
-
-.blogB {
-  grid-area: blogb;
-}
-
-.blogC {
-  grid-area: blogc;
-}
-
-.blogD {
-  grid-area: blogd;
 }
 
 .picture img {
