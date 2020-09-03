@@ -11,6 +11,12 @@ body {
   }
 }
 
+@media screen and (min-width: 1200px) {
+body {
+  font-size: 24px;
+  }
+}
+
 h1 {
   font-size: 1.2em;
   color: #eee;
@@ -47,7 +53,7 @@ a {
     "ft ft ft";
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .container {
     display:grid;
     grid-template-columns: 1fr;
@@ -76,7 +82,7 @@ a {
   background-color: #444;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .nav {
     grid-area: hd;
     display: flex;
@@ -84,13 +90,12 @@ a {
     justify-content: center;
     height:100%;
     background-color: #444;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
   }
 }
 
 .navitem {
-
   width:100%;
   display: flex;
   flex-direction: row;
@@ -138,7 +143,7 @@ a {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .content {
     grid-area: main;
     display:grid;
@@ -200,12 +205,14 @@ a {
   background-color: #ECECEC;
 }
 
+
 .foot {
   width:100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
 }
 
 .logo {
