@@ -7,6 +7,12 @@ body {
 
 h1 {
   font-size: 1.2em;
+  color: #000;
+  text-align: center;
+}
+
+.nav h1 {
+  font-size: 1.2em;
   color: #eee;
 }
 
@@ -19,17 +25,13 @@ h3 {
 }
 
 p {
-  font-size: 0.6em;
+  font-size: 0.7em;
 }
 
 a {
   text-decoration: none;
 }
 
-.box {
-  border: 1px solid blue;
-  background: #F8FA9D;
-  }
 
 .container {
     display:grid;
@@ -72,32 +74,21 @@ a {
 }
 
 .gap {
-  background-color: yellow;
+  background-color: #fff;
+  width:30%;
 }
 
 .blog {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
-.blogA {
-  grid-area: bloga;
 }
 
 .picture img {
   width: 100%;
   height:auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.caption {
-  height: 50%;
-  color: black;
-  margin:0;
-}
 
-.caption a {
-  font-size: 0.8em;
-  font-style: italic;
-}
 
 /*FOOTER*/
 
