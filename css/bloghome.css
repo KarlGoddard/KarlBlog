@@ -38,11 +38,6 @@ a {
   text-decoration: none;
 }
 
-/*.box {
-  border: 1px solid blue;
-  background: #F8FA9D;
-  } use while building to visualize - delete on completion?*/
-
 .container {
     display:grid;
     grid-template-columns: repeat(3,1fr);
