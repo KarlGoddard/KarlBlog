@@ -70,61 +70,9 @@ a {
   }
 }
 
-/*NAVIGATION*/
+/*NAVIGATION in navigation.css*/
 
-.nav {
-  grid-area: hd;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height:100%;
-  background-color: #444;
-}
-
-@media screen and (max-width: 768px) {
-  .nav {
-    grid-area: hd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height:100%;
-    background-color: #444;
-    margin:0;
-    padding:0;
-  }
-}
-
-.navitem {
-  width:100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-/*SIDEBAR*/
-
-.sidebar {
-  grid-area: sd;
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  padding: 10px;
-  background-color: white;
-}
-
-.item {
-  margin: 2px;
-  padding-left: 10px;
-  background-color: #ECECEC;
-}
-
-.active{
-  background-color: #444;
-  color: #eee;
-}
-
-
+/*SIDEBAR in sidebar.css*/
 
 /*CONTENT*/
 
