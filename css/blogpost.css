@@ -40,6 +40,14 @@ p {
   font-size: 0.7em;
 }
 
+p.author {
+  font-weight: bold;
+}
+
+p.posted {
+  font-style: italic;
+}
+
 a {
   text-decoration: none;
 }
