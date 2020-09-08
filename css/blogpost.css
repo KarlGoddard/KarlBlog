@@ -48,6 +48,10 @@ p.posted {
   font-style: italic;
 }
 
+figcaption {
+  font-size: 0.5em;
+}
+
 a {
   text-decoration: none;
 }
