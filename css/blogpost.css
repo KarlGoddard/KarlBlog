@@ -114,6 +114,23 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button {
+  border: 1px solid #444;
+  color: #444;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+}
 
 /*FOOTER*/
 
