@@ -1,0 +1,31 @@
+/*NAVIGATION*/
+
+.nav {
+  grid-area: hd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height:100%;
+  background-color: #444;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    grid-area: hd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    background-color: #444;
+    margin:0;
+    padding:0;
+  }
+}
+
+.navitem {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

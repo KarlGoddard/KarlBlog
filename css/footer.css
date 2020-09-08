@@ -1,0 +1,37 @@
+/*FOOTER*/
+
+.footer {
+  grid-area: ft;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height:120px;
+  background-color: #ECECEC;
+}
+
+
+.foot {
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  height:88px;
+  width: 88px;
+  overflow: hidden;
+  position: relative;
+}
+
+.facebook img{
+margin: -334px 100px 0 -208px;
+}
+.youtube img{
+margin: -90px 0 0 -85px;
+}
+.twitter img{
+margin: -90px 0 0 -208px;
+}

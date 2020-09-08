@@ -1,0 +1,21 @@
+/*SIDEBAR*/
+
+.sidebar {
+  grid-area: sd;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: white;
+}
+
+.item {
+  margin: 2px;
+  padding-left: 10px;
+  background-color: #ECECEC;
+}
+
+.active{
+  background-color: #444;
+  color: #eee;
+}
