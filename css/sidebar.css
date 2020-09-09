@@ -1,6 +1,6 @@
 /*SIDEBAR*/
 
-.sidebar {
+section {
   grid-area: sd;
   display:flex;
   flex-direction: column;
