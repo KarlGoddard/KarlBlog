@@ -1,6 +1,6 @@
 /*FOOTER*/
 
-footer {
+footer.bar {
   grid-area: ft;
   display: flex;
   flex-direction: row;
